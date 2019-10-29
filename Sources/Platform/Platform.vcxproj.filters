@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Win_FS.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win_Memory.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win_Time.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win_Debug.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win_Path.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Win_Thread.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="library_linkage.h" />
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="PlatformDetect.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformTypes.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="Win_DisableWarning.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="Win_Inludes.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="Win_FS.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="Win_Memory.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="Win_Time.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="Win_Debug.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="Win_Path.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="Win_Thread.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{2cb37172-50fe-48a2-9238-5b0dae41b787}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Linus.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+
+
+void	MyFrame();
+
+
+int maihftghgfhgfhn();
